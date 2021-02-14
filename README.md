@@ -1,8 +1,8 @@
 # Notes:
 1. Project built with Maven
 
-#Tests: 
+# Tests: 
 1. Factorial Calculator
 2. Tauria Registration
 
-# Run tests as Java Application
+** Run tests as Java Application
