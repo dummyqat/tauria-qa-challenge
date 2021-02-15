@@ -45,7 +45,7 @@ public class FactorialCalculator {
 		Assert.assertTrue(currentUrl.contains(url));
 	}
 
-	public static void calculateFactorial(String number, String result) throws Exception {
+	public static void calculateFactorial(String number, String result) {
 		driver.findElement(By.cssSelector("input[id='number']")).sendKeys(number);
 		driver.findElement(By.cssSelector("button[id='getFactorial']")).click();
 		waitForElementVisible(By.xpath("//p[contains(text(),'factorial')]"));
